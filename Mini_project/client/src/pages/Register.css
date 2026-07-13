@@ -1,0 +1,23 @@
+.register-container {
+  text-align: center;
+  padding: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+  margin: auto;
+}
+input, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

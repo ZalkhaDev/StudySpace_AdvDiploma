@@ -1,0 +1,100 @@
+
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.logo-icon {
+  font-size: 30px;
+  background: linear-gradient(90deg, #8b5cf6, #ff00c8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+h1 {
+  margin: 10px 0;
+  color: #6c5ce7;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tab-buttons .active {
+  background: #95098c;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90deg, #8b5cf6, #ff00c8);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.light-mode {
+  margin-top: 20px;
+  background: none;
+  border: none;
+  color: #6c5ce7;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*Logout*/
+.logout-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.logout-btn:hover {
+  background: #c0392b;
+}
